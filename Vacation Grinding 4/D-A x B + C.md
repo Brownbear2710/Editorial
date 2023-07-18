@@ -1,6 +1,6 @@
 # [D-A x B + C](https://atcoder.jp/contests/abc179/tasks/abc179_c?lang=en)
 
-For each pair $(A, B)$ of positive integers such that $A$ x $B < N$, a positive integer $C$ such that $A×B+C=N$ is uniquely determined. Therefore, it is sufficient to count the number of such pairs of positive integers $(A, B)$.
+For each pair $(A, B)$ of positive integers such that $A$ × $B < N$, a positive integer $C$ such that $A×B+C=N$ is uniquely determined. Therefore, it is sufficient to count the number of such pairs of positive integers $(A, B)$.
 
 When $A$ is fixed, the number of possible $B$ is $⌊\frac{A}{N−1}⌋$. Therefore, we could solve the problem by performing exhaustive search on $A$ from 1 to $N−1$.
 
