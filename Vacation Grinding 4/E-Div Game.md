@@ -4,7 +4,7 @@ Let's say a prime divisor $p$ can divide $N$ $k$ times. Now, to maximize the num
 
 i.e. $1+2+...+x ≤ p$
 
-$ => \frac{x(x+1)}{2} ≤ k$
+$=> \frac{x(x+1)}{2} ≤ k$
 
 => $ x^2 + x - 2*k ≤ 0$
 
