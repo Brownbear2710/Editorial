@@ -43,6 +43,7 @@ Time complexity: $O(N+M$log$M)$
 <summary>C++ Code</summary>
 
 ```cpp
+#include <bits/stdc++.h>
 
 using namespace std;
 using ll = long long;
