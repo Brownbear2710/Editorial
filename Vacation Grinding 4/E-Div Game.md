@@ -1,6 +1,6 @@
 # [E-Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d?lang=en)
 
-Let's say a prime divisor $p$ can divide $N$ $k$ times. Now, to maximize the number of operations, we have to take $p^1$, $p^2$...$p^x$ where each power is unique. But $p$ can divie $N$ limited number of times which is $k$. So, sum of powers of $p$ must less than or equal to $k$.
+Let's say a prime divisor $p$ can divide $N$ $k$ times. Now, to maximize the number of operations, we have to take $p^1$, $p^2$ ... $p^x$ where each power is unique. But $p$ can divie $N$ limited number of times which is $k$. So, sum of powers of $p$ must less than or equal to $k$.
 
 i.e. $1+2+...+x ≤ p$
 
