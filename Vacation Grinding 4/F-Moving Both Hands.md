@@ -36,7 +36,7 @@ Therefore we can set up a graph like the following:
 
 After this, we do the Dijkstra algorithm once on the new graph from vertex $(1,0)$. Then, the optimal time if both hands start from vertices $1$ and $k$ in the original graph is equal to $d((1,0),(k,1))$ in the new graph.
 
-Time complexity: $O(N+M$log$M)$
+Time complexity: $O(N+M$ log $M)$
 </details>
 
 <details>
