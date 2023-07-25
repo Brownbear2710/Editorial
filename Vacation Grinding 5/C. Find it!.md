@@ -1,5 +1,6 @@
 # [C - Find it!](https://atcoder.jp/contests/abc311/tasks/abc311_c?lang=en)
 
+## Solution
 Perform DFS. Keep track of parent node while DFS is running.
 Also keep track which node was the starting call for DFS when a new node is visited (instead of boolean array of visited, use integer)
 Finding the answer:
