@@ -2,7 +2,7 @@
 
 
 ## Solution
-It is always to have equal number of roses and lillies in a given range. If it is not possible to divide the range into euqal number of roses and lillies then one of them should be one more in number than the other.
+It is always best to have equal number of roses and lillies in a given range. If it is not possible to divide the range into euqal number of roses and lillies then one of them should be one more in number than the other.
 
 So, the answer is always either the string $010101010...$ or $101010...$
 
