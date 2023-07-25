@@ -1,15 +1,16 @@
 # [B. Dreamoon and WiFi](https://codeforces.com/problemset/problem/476/B)
 
-Suppose the two strings are $A$ and $B$. $Value$ of string = number of $(+)$ - number of $(-)$
-Let number of $(?)$ in $B$ = $Q$.
-$Answer = 1$ if $Q = 0$ and $Value(A) = Value(B)$
-$Answer = 0$ if abs(Value(A) - Value(B)) > Q
-Now for the other case,
-let us asume we have to replace $X$ number of $(?)$ to $(+)$ and $Y$ number of $(?)$ to $(-)$.
-It is obvious that $X+Y = Q$ and $X-Y = Value(A) - Value(B)$
-So, $X = (Q + Value(A) - Value(B)) / 2$
-$Answer = (0.5^Q) *$ $($number of ways to choose $X$ from $Q)$
-So, $Answer$ = $(0.5^Q) *$ $^QC_X$
+## Solution
+Suppose the two strings are $A$ and $B$. $Value$ of string = number of $(+)$ - number of $(-)$ <br>
+Let, number of $(?)$ in $B$ = $Q$. <br>
+$Answer = 1$ if $Q = 0$ and $Value(A) = Value(B)$ <br>
+$Answer = 0$ if abs(Value(A) - Value(B)) > Q <br>
+Now for the other case, <br>
+let us asume we have to replace $X$ number of $(?)$ to $(+)$ and $Y$ number of $(?)$ to $(-)$. <br>
+It is obvious that $X+Y = Q$ and $X-Y = Value(A) - Value(B)$ <br>
+So, $X = (Q + Value(A) - Value(B)) / 2$ <br>
+$Answer = (0.5^Q) *$ $($number of ways to choose $X$ from $Q)$ <br>
+So, $Answer$ = $(0.5^Q) *$ $^QC_X$ <br>
 
 <details>
 <summary>Code</summary>
