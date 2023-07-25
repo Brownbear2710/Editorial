@@ -1,5 +1,6 @@
 # [D - Grid Ice Floor](https://atcoder.jp/contests/abc311/tasks/abc311_d?lang=en)
 
+## Solution
 Brute force, traversal problem
 Just simulate all possible movement.
 Start from (2,2). Then go to the leftmost, rightmost, topmost, bottom-most possible position and mark all the nodes visited.
