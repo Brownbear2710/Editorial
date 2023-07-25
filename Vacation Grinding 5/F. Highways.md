@@ -1,10 +1,11 @@
 # [F. Highways](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1088)
 
-This is a minimum spanning tree problem. Except some edges are already taken. This can be easily solved using [Kruskal's algorithm with DSU](https://cp-algorithms.com/graph/mst_kruskal_with_dsu.html).
+## Solution
+This is a minimum spanning tree problem. Except some edges are already taken. This can be easily solved using [Kruskal's algorithm with DSU](https://cp-algorithms.com/graph/mst_kruskal_with_dsu.html). <br>
 
-At first, we will join the given edges using DSU.
-After that we will check, if all nodes are connected. If so, we will simply print <i>"No new highways need"</i>
-Otherwise, we will use kruskal's algorithm to select the optimal edges.
+At first, we will join the given edges using DSU. <br>
+After that we will check, if all nodes are connected. If so, we will simply print <i>"No new highways need"</i> <br>
+Otherwise, we will use kruskal's algorithm to select the optimal edges. <br>
 
 <details>
 <summary>Code</summary>
