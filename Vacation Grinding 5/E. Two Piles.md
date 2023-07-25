@@ -1,7 +1,7 @@
 # [Two Piles](https://www.codechef.com/problems/SPLITMIN?tab=statement)
 
-
-At first we sort the array that contains all elements from $a$ and $b$.
+## Solution
+At first we sort the array that contains all elements from $a$ and $b$. <br>
 There are three things to consider:
 
 1. The answer must constain an element which is greater than equal to maximum of all $min$($a_i$, $b_i$).
