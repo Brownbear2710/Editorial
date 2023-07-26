@@ -4,7 +4,7 @@
 At first we sort the array that contains all elements from $a$ and $b$. <br>
 There are three things to consider:
 
-1. The answer must constain an element which is greater than equal to maximum of all $min$($a_i$, $b_i$).
+1. The answer must contain an element which is greater than equal to maximum of all $min$($a_i$, $b_i$).
 This is because even though we choose the minimum values from all pairs. The maximum of all $min$($a_i$, $b_i$) must be in one of the sets.
 2. To reduce the answer, it is always better to choose two adjascent element of the sorted array as the maximum value of the two different piles.
 But we saw earlier that there should be at least one value $\geq$ maximum of all $min$($a_i$, $b_i$).
