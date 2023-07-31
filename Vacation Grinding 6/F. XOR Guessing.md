@@ -3,9 +3,9 @@
 <details>
 <summary>Solution</summary>
 
-For first query, we will select integers which have $0$ in the first $7$ bits. The last $7$ bits will be used to make the numbers distinct from one another. So, whichever number is selected, the $XOR$ will produce a number which has same bit sequence in the first $7$ bits as $x$. <br>
-For, second query, we will do similar thing but for the last $7$ bits.<br>
-So, using two queries we will get the first $7$ bits and the last $7$ bits of $x$ seperately. Now just combine them and print the answer.
+For the first query, we will select integers that have $0$ in the first $7$ bits. The last $7$ bits will be used to make the numbers distinct from one another. So, whichever number is selected, the $XOR$ will produce a number that has the same bit sequence in the first $7$ bits as $x$. <br>
+For, the second query, we will do similar thing but for the last $7$ bits.<br>
+So, using two queries we will get the first $7$ bits and the last $7$ bits of $x$ separately. Now just combine them and print the answer.
 
 </details>
 
