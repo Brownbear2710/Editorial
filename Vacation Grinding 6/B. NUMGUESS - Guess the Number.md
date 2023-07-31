@@ -8,7 +8,7 @@ Scan $a$ and $b$ first. Set $a$ and $b$ as lower limit and upper limit of binary
 
 This will gurantee the minimum number of guesses.
 
-Note: Don't forget to flush the bffer after each guess.
+Note: Don't forget to flush the buffer after each guess.
 
 </details>
 
