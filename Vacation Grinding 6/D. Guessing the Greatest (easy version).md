@@ -4,12 +4,12 @@
 <summary>Solution</summary>
 
 This problem can be done using similar concept as binary search.
-Let's say we know that the grastest number lies in the range $[l...r]$. <br>
+Let's say we know that the greatest number lies in the range $[l...r]$. <br>
 Now, we divide the range into two equal parts $[l...m]$ and $[(m+1)...r]$. <br>
-After that we query on the range $[l...r]$. So, we will know if the second-greatest number lies in the first half or second half of the range $[l...r]$. If the number lies in the first half, i.e., $[l...m]$, we will query on the range $[l...m]$. If the index of the second-greatest number does not change after the query, it means that the greatest number is also in that same range.<br>
-So, we will repeat the process in the range $[l...m]$. Otherwise, we will repeat the process in the range $[(m+1)...r]$. Either way we are guaranteed that the range will become half.<br>
-We will repeat the process untill the range size is reduced to $2$. After that one query is enough to find the greatest number's index.<br>
-This gurantees that number of querires will be at most $2$log$n$.
+After that, we query on the range $[l...r]$. So, we will know if the second-greatest number lies in the first half or second half of the range $[l...r]$. If the number lies in the first half, i.e., $[l...m]$, we will query on the range $[l...m]$. If the index of the second-greatest number does not change after the query, it means that the greatest number is also in that same range.<br>
+So, we will repeat the process in the range $[l...m]$. Otherwise, we will repeat the process in the range $[(m+1)...r]$. Either way, we are guaranteed that the range will become half.<br>
+We will repeat the process until the range size is reduced to $2$. After that one query is enough to find the greatest number's index.<br>
+This guarantees that number of queries will be at most $2$log$n$.
 
 Note: Don't forget to ensure $l \neq r$ for each $query(l,r)$.
 
