@@ -6,13 +6,13 @@
 <details>
 <summary>Idea</summary>
 
-The problem statement can be simplified as: "We have to find number of 1s in the path from node $x$ to $y$".
+The problem can be simplified as: "We have to find the number of $1s$ in the path from node $x$ to $y$".
 This problem can be solved using LCA. <br>
-We keep count the number of $1$s we good from root to any node in anrry $cnt[]$. This can ve done using dfs.<br>
-Let's say, we are given a query $x$ $y$. <br>
-Using LCA we can find the lowest common ancestor $p$.
+We keep count of the number of $1s$ from root to any node in an array $cnt[$ $]$. This can be done using dfs.<br>
+Let's say, we are given $x$ and $y$. <br>
+Using LCA, we can find the lowest common ancestor $p$.
 So, the answer is $cnt[x] + cnt[y] - 2*cnt[p] + 1$. <br>
-The extra $1$ is added, because, while eliminating the count of the $1s$ from root to $p$ we eliminated the color of $p$ as well. But $p$ is definately in the path from $x$ to $y$.
+The extra $1$ is added, because, while eliminating the count of the $1s$ from root to $p$, we also eliminated the color of $p$. But $p$ is definitely on the path from $x$ to $y$.
 
 </details>
 
