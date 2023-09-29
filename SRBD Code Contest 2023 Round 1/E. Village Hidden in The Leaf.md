@@ -8,9 +8,9 @@
 
 Let us answer $type-1$ query first. <br>
 The answer is simply,
-> (position of closest prime after $X$) - p(ositon of closest prime before $X$) - 2 <br>
+> (position of closest prime after $X$) - (positon of closest prime before $X$) - 2 <br>
 
-So, we can keep a $set$ where we will only store the position of the prime numbers. Then simply we can use $lower\_bound$ or $upper\_bound$ to find immediate next and previous prime of the number at $X^{th}$ position. <br>
+So, we can keep a $set$ where we will only store the position of the prime numbers. Then simply we can use $lower\_{-}bound$ or $upper\_{-}bound$ to find immediate next and previous prime of the number at $X^{th}$ position. <br>
 
 Now, whenever we encounter $type-2$ query, we check if the number $Y$ is a prime or not. If it is a prime, we insert $X$ into the set. Otherwise, we remove the $X$ from the set.
 
