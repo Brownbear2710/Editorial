@@ -6,8 +6,8 @@
 <details>
 <summary>Idea</summary>
 
-It is clear that, if there are two numbers $x$ and $y$, where $x$ is multiple of $y$, then $x$ and $y$ are in same group.
-So, for all $A_i$ we find the number that divides $A_i$ other than $1$ and join them ,together using $DSU$. After that, the answer is the number of groups formed which contain at least one element from the array $A$.
+It is clear that, if there are two numbers $x$ and $y$, where $x$ is a multiple of $y$, then $x$ and $y$ are in the same group.
+So, for all $A_i$ we find the number that divides $A_i$ (other than $1$) and join them together using $DSU$. After that, the answer is the number of groups formed which contain at least one element from the array $A$.
 
 Complexity: $O(N \sqrt {max(A_i)})$
 
