@@ -9,7 +9,7 @@
 Let's say, <br>
 > $a = \lfloor \frac{m}{2} \rfloor$ and $b = \lceil \frac{m}{2} \rceil$. <br>
 
-Our goal is to maximize the value of m while ensuring,
+Our goal is to maximize the value of $m$ while ensuring,
 > $a^2 + b^2 + m \times y \leq B$. <br>
 
 We can just do a binary search on the calue of $m$ to find the maximum value of $m$ . After that, we can say, $N = 2^m$
