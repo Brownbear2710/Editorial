@@ -6,9 +6,9 @@
 <details>
 <summary>Idea</summary>
 
-There are only 15 colors possible. Each color has at most of length of 6. <br>
-So, it is possible to brute force all possbile combintion of colors and check if it can be made from the given string. To do that, we have to keep the count of each letter in $S$. <br>
-The answer is the maximum size of the subset among all possbile subsets which can be built.
+There are only 15 colors possible. Each color has a maximum length of 6. <br>
+So, it is possible to brute force all possible combinations of colors and check if it can be made from the given string. To do that, we have to keep the count of each letter in $S$. <br>
+The answer is the maximum size of the subset among all possible subsets which can be built.
 
 </details>
 
