@@ -12,7 +12,8 @@ Two key things to notice: <br>
 
 So, it is clear that no hole can have a size more than $M-1$. This can be done by dynamic programming. <br>
 Let's say, we are standing on position $i$. So, $i$ is a good brick. Then, we can create a hole of size $j$, where $j$ is a prime number and $j < M$. In that case, the next brick we can stand on would be $i+j+1$. So, for each $i$ we can iterate over all $j$ to calculate the ans. <br>
-This gives us a solution with time complexity $O(N*M)$. This can be further optimized by only iterating over the prime numbers smaller than $M$.
+[Note that $0$ is also a prime number in this problem]. <br>
+This gives us a solution with time complexity $O(N*M)$. This can be further optimized by only iterating over the prime numbers smaller than  $M$.
 </details>
 
 <details>
